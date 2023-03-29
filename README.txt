@@ -24,3 +24,14 @@ o reproduce the figures in the publication, follow these steps:
 5. Edit `bin/countwords.py` and `bin/plotcounts.py` to replace `frankenstein` with `dracula`.
 
 6. Repeat the above instructions to generate `dracula.csv` and plot `dracula.pdf`.
+
+
+To reproduce the figures in the publication, run the command:
+
+    bash bin/run_analysis.sh
+
+Results will be placed in a `results/` directory.
+
+This script will automatically pull the full text of the two books to
+process (Frankenstein and Dracula) from Project Gutenberg (gutenberg.org) and place
+them into the `data` directory. Internet access is required for this to work.
