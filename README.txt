@@ -7,7 +7,7 @@ V. Dracula, to appear in Annals of Computational Linguistics, 2022.
 
 To run the code, you will need the Pandas package installed.
 
-o reproduce the figures in the publication, follow these steps:
+To reproduce the figures in the publication, follow these steps:
 
 1. Create a `results` directory
 
